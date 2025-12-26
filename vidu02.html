@@ -1,14 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Trang Web Du Lịch Đơn Giản (Chỉ HTML)</title>
+
+
+
 </head>
 
 <body>
 
+    <!-- Container chứa toàn bộ nội dung -->
+    <div>
+
+        <!-- Thanh Điều Hướng (Navigation Bar) -->
+        <header>
+            <!-- Logo/Tên Trang -->
+            <a href="#">
+                Khám Phá!
+            </a>
+            <!-- Các Liên Kết (Links) -->
+            <nav>
+                <a href="#dich-vu">Dịch Vụ</a>
+                |
+                <a href="#bai-viet">Bài Viết</a>
+                |
+                <a href="#lien-he">Liên Hệ</a>
+            </nav>
+        </header>
+
+        <!-- Phần Chính (Hero Section) -->
+        <main>
+            <div>
+                <!-- Hình ảnh lớn dùng làm banner, được lấy từ URL placeholder -->
+                <img src="https://placehold.co/900x400/1f2937/FFFFFF?text=Anh+Banner"
+                    onerror="this.onerror=null;this.src='https://placehold.co/900x400/1f2937/FFFFFF?text=Loi+Anh';"
+                    alt="Một bãi biển tuyệt đẹp" width="900">
+                <div>
+                    <h1>
+                        Du Lịch Đến Những Nơi Tuyệt Vời
+                    </h1>
+                    <p>
+                        Bắt đầu hành trình của bạn ngay hôm nay. Xem các điểm đến mới nhất!
+                    </p>
+                    <!-- Nút kêu gọi hành động (Call to Action Button) -->
+                    <a href="#bai-viet">
+                        Xem Bài Viết
+                    </a>
+                </div>
+            </div>
+
+            <!-- Phần Nội Dung Chính (Article Cards) -->
+            <section id="bai-viet">
+                <h2>
+                    Điểm Đến Nổi Bật
+                </h2>
+
+                <!-- Lưới (Grid) chứa 3 bài viết -->
+                <div>
+
+                    <!-- Thẻ Bài Viết 1 -->
+                    <div>
+                        <!-- Hình ảnh bài viết -->
+                        <img src="https://placehold.co/300x180/22c55e/FFFFFF?text=Anh+Bai+Viet+1"
+                            onerror="this.onerror=null;this.src='https://placehold.co/300x180/22c55e/FFFFFF?text=Loi+Anh';"
+                            alt="Những ngọn núi hùng vĩ" width="300">
+                        <div>
+                            <h3>Chinh Phục Dãy Alps</h3>
+                            <p>
+                                Khám phá những con đường mòn tuyệt đẹp và không khí trong lành ở châu Âu.
+                            </p>
+                            <a href="#">
+                                Đọc thêm &rarr;
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Thẻ Bài Viết 2 -->
+                    <div>
+                        <!-- Hình ảnh bài viết, dùng URL placeholder -->
+                        <img src="https://placehold.co/300x180/f59e0b/000000?text=Anh+Bai+Viet+2"
+                            onerror="this.onerror=null;this.src='https://placehold.co/300x180/f59e0b/000000?text=Loi+Anh';"
+                            alt="Cảnh quan đô thị về đêm" width="300">
+                        <div>
+                            <h3>Tuần Lễ Ở Tokyo</h3>
+                            <p>
+                                Hướng dẫn ẩm thực và văn hóa cho chuyến đi 7 ngày tại thủ đô Nhật Bản.
+                            </p>
+                            <a href="#">
+                                Đọc thêm &rarr;
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Thẻ Bài Viết 3 -->
+                    <div>
+                        <!-- Hình ảnh bài viết, dùng URL placeholder -->
+                        <img src="https://placehold.co/300x180/3b82f6/FFFFFF?text=Anh+Bai+Viet+3"
+                            onerror="this.onerror=null;this.src='https://placehold.co/300x180/3b82f6/FFFFFF?text=Loi+Anh';"
+                            alt="Cồn cát vàng rực rỡ" width="300">
+                        <div>
+                            <h3>Bí Ẩn Sa Mạc Sahara</h3>
+                            <p>
+                                Trải nghiệm cắm trại dưới bầu trời đầy sao và cưỡi lạc đà.
+                            </p>
+                            <a href="#">
+                                Đọc thêm &rarr;
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Phần Dịch Vụ (Callout Section) -->
+            <section id="dich-vu">
+                <h2>
+                    Kế Hoạch Cho Kỳ Nghỉ Mơ Ước Của Bạn
+                </h2>
+                <p>
+                    Chúng tôi cung cấp các gói tour trọn gói, hướng dẫn viên chuyên nghiệp, và hỗ trợ đặt vé 24/7.
+                </p>
+                <a href="#lien-he">
+                    Bắt Đầu Kế Hoạch
+                </a>
+            </section>
+        </main>
+
+        <!-- Chân Trang (Footer) -->
+        <footer id="lien-he">
+            <p>&copy; 2024 Khám Phá. Bản quyền đã được bảo hộ.</p>
+            <div>
+                <!-- Liên kết Footer -->
+                <a href="#">Điều Khoản</a>
+                |
+                <a href="#">Chính Sách</a>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
