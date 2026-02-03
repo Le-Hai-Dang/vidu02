@@ -1,0 +1,72 @@
+/* === CSS CHO TRANG WEB CON VẬT === */
+
+/* Phần tiêu đề trang */
+.tieu-de {
+    background-color: #FF6B6B;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.ten-trang {
+    font-size: 35px;
+    color: yellow;
+}
+
+.mo-ta-trang {
+    font-size: 18px;
+    color: white;
+}
+
+/* Thanh menu */
+.menu {
+    background-color: #4ECDC4;
+    border-radius: 10px;
+}
+
+.nut-menu {
+    font-size: 18px;
+    color: white;
+    background-color: #45B7AA;
+    border-radius: 8px;
+}
+
+/* Khung con vật */
+.con-vat {
+    background-color: #FFF9C4;
+    border-radius: 20px;
+}
+
+.ten-con-vat {
+    font-size: 28px;
+    color: #E91E63;
+}
+
+/* Hình ảnh */
+.hinh-anh {
+    border-radius: 15px;
+}
+
+/* Thông tin */
+.thong-tin {
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Phần cuối trang */
+.cuoi-trang {
+    background-color: #9C27B0;
+    border-radius: 15px;
+}
+
+.chu-cuoi {
+    font-size: 18px;
+    color: white;
+}
+
+.nut-cuoi {
+    font-size: 16px;
+    color: white;
+    background-color: #7B1FA2;
+    border-radius: 10px;
+}

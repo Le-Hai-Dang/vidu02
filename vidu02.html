@@ -1,146 +1,89 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
 
 <head>
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Web Du Lịch Đơn Giản (Chỉ HTML)</title>
-
-
-
+    <title>Trang Web Con Vat Dang Yeu</title>
+    <!-- Lien ket file CSS -->
+    <link rel="stylesheet" href="vidu.css">
 </head>
 
 <body>
 
-    <!-- Container chứa toàn bộ nội dung -->
-    <div>
-
-        <!-- Thanh Điều Hướng (Navigation Bar) -->
-        <header>
-            <!-- Logo/Tên Trang -->
-            <a href="#">
-                Khám Phá!
-            </a>
-            <!-- Các Liên Kết (Links) -->
-            <nav>
-                <a href="#dich-vu">Dịch Vụ</a>
-                |
-                <a href="#bai-viet">Bài Viết</a>
-                |
-                <a href="#lien-he">Liên Hệ</a>
-            </nav>
-        </header>
-
-        <!-- Phần Chính (Hero Section) -->
-        <main>
-            <div>
-                <!-- Hình ảnh lớn dùng làm banner, được lấy từ URL placeholder -->
-                <img src="https://placehold.co/900x400/1f2937/FFFFFF?text=Anh+Banner"
-                    onerror="this.onerror=null;this.src='https://placehold.co/900x400/1f2937/FFFFFF?text=Loi+Anh';"
-                    alt="Một bãi biển tuyệt đẹp" width="900">
-                <div>
-                    <h1>
-                        Du Lịch Đến Những Nơi Tuyệt Vời
-                    </h1>
-                    <p>
-                        Bắt đầu hành trình của bạn ngay hôm nay. Xem các điểm đến mới nhất!
-                    </p>
-                    <!-- Nút kêu gọi hành động (Call to Action Button) -->
-                    <a href="#bai-viet">
-                        Xem Bài Viết
-                    </a>
-                </div>
-            </div>
-
-            <!-- Phần Nội Dung Chính (Article Cards) -->
-            <section id="bai-viet">
-                <h2>
-                    Điểm Đến Nổi Bật
-                </h2>
-
-                <!-- Lưới (Grid) chứa 3 bài viết -->
-                <div>
-
-                    <!-- Thẻ Bài Viết 1 -->
-                    <div>
-                        <!-- Hình ảnh bài viết -->
-                        <img src="https://placehold.co/300x180/22c55e/FFFFFF?text=Anh+Bai+Viet+1"
-                            onerror="this.onerror=null;this.src='https://placehold.co/300x180/22c55e/FFFFFF?text=Loi+Anh';"
-                            alt="Những ngọn núi hùng vĩ" width="300">
-                        <div>
-                            <h3>Chinh Phục Dãy Alps</h3>
-                            <p>
-                                Khám phá những con đường mòn tuyệt đẹp và không khí trong lành ở châu Âu.
-                            </p>
-                            <a href="#">
-                                Đọc thêm &rarr;
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Thẻ Bài Viết 2 -->
-                    <div>
-                        <!-- Hình ảnh bài viết, dùng URL placeholder -->
-                        <img src="https://placehold.co/300x180/f59e0b/000000?text=Anh+Bai+Viet+2"
-                            onerror="this.onerror=null;this.src='https://placehold.co/300x180/f59e0b/000000?text=Loi+Anh';"
-                            alt="Cảnh quan đô thị về đêm" width="300">
-                        <div>
-                            <h3>Tuần Lễ Ở Tokyo</h3>
-                            <p>
-                                Hướng dẫn ẩm thực và văn hóa cho chuyến đi 7 ngày tại thủ đô Nhật Bản.
-                            </p>
-                            <a href="#">
-                                Đọc thêm &rarr;
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Thẻ Bài Viết 3 -->
-                    <div>
-                        <!-- Hình ảnh bài viết, dùng URL placeholder -->
-                        <img src="https://placehold.co/300x180/3b82f6/FFFFFF?text=Anh+Bai+Viet+3"
-                            onerror="this.onerror=null;this.src='https://placehold.co/300x180/3b82f6/FFFFFF?text=Loi+Anh';"
-                            alt="Cồn cát vàng rực rỡ" width="300">
-                        <div>
-                            <h3>Bí Ẩn Sa Mạc Sahara</h3>
-                            <p>
-                                Trải nghiệm cắm trại dưới bầu trời đầy sao và cưỡi lạc đà.
-                            </p>
-                            <a href="#">
-                                Đọc thêm &rarr;
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <!-- Phần Dịch Vụ (Callout Section) -->
-            <section id="dich-vu">
-                <h2>
-                    Kế Hoạch Cho Kỳ Nghỉ Mơ Ước Của Bạn
-                </h2>
-                <p>
-                    Chúng tôi cung cấp các gói tour trọn gói, hướng dẫn viên chuyên nghiệp, và hỗ trợ đặt vé 24/7.
-                </p>
-                <a href="#lien-he">
-                    Bắt Đầu Kế Hoạch
-                </a>
-            </section>
-        </main>
-
-        <!-- Chân Trang (Footer) -->
-        <footer id="lien-he">
-            <p>&copy; 2024 Khám Phá. Bản quyền đã được bảo hộ.</p>
-            <div>
-                <!-- Liên kết Footer -->
-                <a href="#">Điều Khoản</a>
-                |
-                <a href="#">Chính Sách</a>
-            </div>
-        </footer>
+    <!-- Phan tieu de trang -->
+    <div class="tieu-de">
+        <h1 class="ten-trang">The Gioi Dong Vat Dang Yeu</h1>
+        <p class="mo-ta-trang">Chao mung ban den voi trang web gioi thieu cac con vat de thuong!</p>
     </div>
+
+    <!-- Thanh menu -->
+    <div class="menu">
+        <a class="nut-menu" href="#cho">Con Cho</a>
+        <a class="nut-menu" href="#meo">Con Meo</a>
+        <a class="nut-menu" href="#tho">Con Tho</a>
+    </div>
+
+    <!-- Con Cho -->
+    <div class="con-vat" id="cho">
+        <h1 class="ten-con-vat">Con Cho</h1>
+        <img class="hinh-anh" src="https://placehold.co/300x200/FFB347/000000?text=Con+Cho" alt="Hinh con cho">
+        <p class="thong-tin">Cho la nguoi ban than nhat cua con nguoi. Chung rat trung thanh va dang yeu.</p>
+        <p class="thong-tin">Cho thich chay nhay, choi dua va an xuong.</p>
+        <p class="thong-tin">Cho co nhieu giong khac nhau nhu: Corgi, Poodle, Husky, Phu Quoc...</p>
+    </div>
+
+    <!-- Con Meo -->
+    <div class="con-vat" id="meo">
+        <h1 class="ten-con-vat">Con Meo</h1>
+        <img class="hinh-anh" src="https://placehold.co/300x200/FFB6C1/000000?text=Con+Meo" alt="Hinh con meo">
+        <p class="thong-tin">Meo la loai vat nuoi rat pho bien trong gia dinh.</p>
+        <p class="thong-tin">Meo thich ngu, thich duoc vuot ve va hay keu "meo meo".</p>
+        <p class="thong-tin">Meo rat thong minh va biet tu ve sinh ban than.</p>
+    </div>
+
+    <!-- Con Tho -->
+    <div class="con-vat" id="tho">
+        <h1 class="ten-con-vat">Con Tho</h1>
+        <img class="hinh-anh" src="https://placehold.co/300x200/98FB98/000000?text=Con+Tho" alt="Hinh con tho">
+        <p class="thong-tin">Tho co doi tai dai va bo long mem mai.</p>
+        <p class="thong-tin">Tho thich an ca rot, rau xanh va co tuoi.</p>
+        <p class="thong-tin">Tho co the nhay rat xa va chay rat nhanh.</p>
+    </div>
+
+    <!-- Con Ca -->
+    <div class="con-vat">
+        <h1 class="ten-con-vat">Con Ca</h1>
+        <img class="hinh-anh" src="https://placehold.co/300x200/00CED1/000000?text=Con+Ca" alt="Hinh con ca">
+        <p class="thong-tin">Ca song duoi nuoc va co vay de boi.</p>
+        <p class="thong-tin">Ca co nhieu mau sac dep nhu: do, vang, xanh, cam...</p>
+        <p class="thong-tin">Nuoi ca canh trong be rat dep va thu gian.</p>
+    </div>
+
+    <!-- Con Rua -->
+    <div class="con-vat">
+        <h1 class="ten-con-vat">Con Rua</h1>
+        <img class="hinh-anh" src="https://placehold.co/300x200/9ACD32/000000?text=Con+Rua" alt="Hinh con rua">
+        <p class="thong-tin">Rua co mai cung de bao ve co the.</p>
+        <p class="thong-tin">Rua di chuyen cham nhung song rat tho.</p>
+        <p class="thong-tin">Rua thich an rau xanh va boi loi trong nuoc.</p>
+    </div>
+
+    <!-- Con Vit -->
+    <div class="con-vat">
+        <h1 class="ten-con-vat">Con Vit</h1>
+        <img class="hinh-anh" src="https://placehold.co/300x200/FFD700/000000?text=Con+Vit" alt="Hinh con vit">
+        <p class="thong-tin">Vit co bo long mem va biet boi gioi.</p>
+        <p class="thong-tin">Vit keu "cap cap" va di lach bach rat dang yeu.</p>
+        <p class="thong-tin">Vit con co mau vang rat de thuong.</p>
+    </div>
+
+    <!-- Phan cuoi trang -->
+    <div class="cuoi-trang">
+        <p class="chu-cuoi">Cam on ban da xem trang web cua chung toi!</p>
+        <p class="chu-cuoi">Hay yeu thuong va bao ve cac con vat nhe!</p>
+        <a class="nut-cuoi" href="#">Ve dau trang</a>
+    </div>
+
 </body>
 
 </html>
